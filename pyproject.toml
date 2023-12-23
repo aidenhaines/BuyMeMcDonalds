@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "mc-api"
+name = "buymemcdonalds-api"
 version = "0.1.0"
 description = "Partial API wrapper for the mcdonalds api"
 authors = ["Aiden Haines <me@aidenhaines.com>"]
@@ -12,6 +12,7 @@ aiohttp = "^3.9.1"
 beanie = "^1.23.6"
 fastapi = "^0.105.0"
 python-dotenv = "^1.0.0"
+uvicorn = "^0.25.0"
 
 
 [build-system]
